@@ -1,0 +1,5 @@
+{"ts": "2026-08-13T11:15:46.668513+00:00", "run_id": "20260813_191546", "stage": "start", "provider": "claude-cli", "brief": "briefs/acme_intro.md", "mode": "full"}
+{"ts": "2026-08-13T11:16:07.414183+00:00", "run_id": "20260813_191546", "stage": "worker-draft", "attempt": 1, "model": "sonnet", "sha256": "ce96fa8bfbb5e99c", "words": 84}
+{"ts": "2026-08-13T11:16:07.414315+00:00", "run_id": "20260813_191546", "stage": "deterministic-checks", "attempt": 1, "sha256": "ce96fa8bfbb5e99c", "verdict": "HELD", "violations": [], "cost": "none"}
+{"ts": "2026-08-13T11:16:29.629402+00:00", "run_id": "20260813_191546", "stage": "llm-verifier", "attempt": 1, "sha256": "ce96fa8bfbb5e99c", "model": "haiku", "verdict": "HELD", "violations": [], "not_checked": ["tone, persuasiveness, or whether the brief itself is accurate; deliverability; whether the 20-minute ask is calibrated to Dana's actual availability; appropriateness of the subject line"]}
+{"ts": "2026-08-13T11:16:29.629723+00:00", "run_id": "20260813_191546", "stage": "shipped", "attempt": 1, "sha256": "ce96fa8bfbb5e99c", "outbox": "outbox/20260813_191546_attempt1.md"}

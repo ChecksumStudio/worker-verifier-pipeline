@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 502" font-size="13">
+<style>.g{fill:#3fb950}.r{fill:#f85149}.d{fill:#8b949e}.w{fill:#e6edf3}.c{fill:#79c0ff}text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;font-size:13px;white-space:pre}@keyframes k0{0%,2.94%{opacity:0}3.24%,93%{opacity:1}96%,100%{opacity:0}}.a0{animation:k0 34s linear infinite}@keyframes k1{0%,2.94%{opacity:0}3.24%,93%{opacity:1}96%,100%{opacity:0}}.a1{animation:k1 34s linear infinite}@keyframes k2{0%,7.65%{opacity:0}7.95%,93%{opacity:1}96%,100%{opacity:0}}.a2{animation:k2 34s linear infinite}@keyframes k3{0%,10.00%{opacity:0}10.30%,93%{opacity:1}96%,100%{opacity:0}}.a3{animation:k3 34s linear infinite}@keyframes k4{0%,12.35%{opacity:0}12.65%,93%{opacity:1}96%,100%{opacity:0}}.a4{animation:k4 34s linear infinite}@keyframes k5{0%,14.71%{opacity:0}15.01%,93%{opacity:1}96%,100%{opacity:0}}.a5{animation:k5 34s linear infinite}@keyframes k6{0%,17.06%{opacity:0}17.36%,93%{opacity:1}96%,100%{opacity:0}}.a6{animation:k6 34s linear infinite}@keyframes k7{0%,19.41%{opacity:0}19.71%,93%{opacity:1}96%,100%{opacity:0}}.a7{animation:k7 34s linear infinite}@keyframes k8{0%,21.76%{opacity:0}22.06%,93%{opacity:1}96%,100%{opacity:0}}.a8{animation:k8 34s linear infinite}@keyframes k9{0%,25.29%{opacity:0}25.59%,93%{opacity:1}96%,100%{opacity:0}}.a9{animation:k9 34s linear infinite}@keyframes k10{0%,35.29%{opacity:0}35.59%,93%{opacity:1}96%,100%{opacity:0}}.a10{animation:k10 34s linear infinite}@keyframes k11{0%,40.00%{opacity:0}40.30%,93%{opacity:1}96%,100%{opacity:0}}.a11{animation:k11 34s linear infinite}@keyframes k12{0%,44.71%{opacity:0}45.01%,93%{opacity:1}96%,100%{opacity:0}}.a12{animation:k12 34s linear infinite}@keyframes k13{0%,50.00%{opacity:0}50.30%,93%{opacity:1}96%,100%{opacity:0}}.a13{animation:k13 34s linear infinite}@keyframes k14{0%,55.88%{opacity:0}56.18%,93%{opacity:1}96%,100%{opacity:0}}.a14{animation:k14 34s linear infinite}@keyframes k15{0%,61.76%{opacity:0}62.06%,93%{opacity:1}96%,100%{opacity:0}}.a15{animation:k15 34s linear infinite}@keyframes k16{0%,67.65%{opacity:0}67.95%,93%{opacity:1}96%,100%{opacity:0}}.a16{animation:k16 34s linear infinite}@keyframes k17{0%,70.59%{opacity:0}70.89%,93%{opacity:1}96%,100%{opacity:0}}.a17{animation:k17 34s linear infinite}</style>
+<rect width="760" height="502" rx="8" fill="#0d1117" stroke="#30363d"/>
+<circle cx="20" cy="18" r="5" fill="#f85149"/>
+<circle cx="38" cy="18" r="5" fill="#d29922"/>
+<circle cx="56" cy="18" r="5" fill="#3fb950"/>
+<text x="76" y="22" class="d">worker-verifier-pipeline — two real runs, receipts committed</text>
+<text x="22" y="58" class="c a0">$ python3 run_pipeline.py briefs/acme_intro.md \</text>
+<text x="22" y="82" class="c a1">      --verify-only fixtures/bad_draft.md</text>
+<text x="22" y="106" class="d a2">run 20260813_191531 — receipts/20260813_191531.jsonl</text>
+<text x="22" y="130" class="r a3">[deterministic-checks]  verdict: FAILED   cost: none</text>
+<text x="22" y="154" class="w a4">   R5 — clickbait subject opener: 'quick question'</text>
+<text x="22" y="178" class="w a5">   R2 — banned word: 'revolutionize'  (+5 more)</text>
+<text x="22" y="202" class="w a6">   R3 — 4 exclamation marks (max 1)</text>
+<text x="22" y="226" class="w a7">   R6 — placeholder survived: '[Name]'</text>
+<text x="22" y="250" class="w a8">   R8 — sender 'Riley' not in the closing lines</text>
+<text x="22" y="274" class="r a9">verdict: FAILED — 10 violation(s). Nothing ships.</text>
+<text x="22" y="298" class="c a10">$ python3 run_pipeline.py briefs/acme_intro.md</text>
+<text x="22" y="322" class="d a11">run 20260813_191546 — receipts/20260813_191546.jsonl</text>
+<text x="22" y="346" class="w a12">[worker-draft]          model: sonnet   sha256: ce96fa8bfbb5e99c</text>
+<text x="22" y="370" class="g a13">[deterministic-checks]  verdict: HELD    sha256: ce96fa8bfbb5e99c</text>
+<text x="22" y="394" class="g a14">[llm-verifier]          model: haiku    verdict: HELD</text>
+<text x="22" y="418" class="g a15">[shipped]               outbox/20260813_191546_attempt1.md</text>
+<text x="22" y="442" class="w a16">HELD on attempt 1 — shipped.</text>
+<text x="22" y="466" class="d a17">(HELD means the gate could not break it — not that it is good. Read it.)</text>
+</svg>
